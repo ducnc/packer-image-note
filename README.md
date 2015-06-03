@@ -138,6 +138,11 @@ Build 'openstack' finished.
 Image mới được tạo trên OpenStack
 ![Ảnh minh họa](http://i.imgur.com/jWu6SGN.png)
 
+VM được launch bằng image vừa tạo
+![Ảnh minh họa](http://i.imgur.com/b8b1mW2.png)
+![Ảnh minh họa](http://i.imgur.com/UJm2zK9.png)
+
+
 ###3. Một số lỗi và debug
 
 - Không floating được IP: bạn phải chắc chắn rằng IP mà bạn sử dụng để float tồn tại và chưa được sử dụng cho host nào. http://i.imgur.com/xBdjQN0.png 
