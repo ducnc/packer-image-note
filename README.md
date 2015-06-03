@@ -68,7 +68,7 @@ Trong đó `builders` là thành phần của packer có nhiệm vụ đọc cá
 - username, password, provider, project, region là những thông tin xác thực keystone trong hệ thống OpenStack của bạn. Có thể xem thông tin này tại file `admin-openrc`
 - ssh_username: tên user dùng để đăng nhập SSH, với cloud-init tên này mặc định là ubuntu
 - image_name: tên của image mà bạn sắp tạo ra
-- source_image: ID của image cơ sở (trong trường hợp này là image Ubuntu14cloud), có thể lấy ID này bằng lệnh nova image-list. 
+- source_image: ID của image cơ sở (trong trường hợp này là image `Ubuntu14cloud`), có thể lấy ID này bằng lệnh `nova image-list`. 
 ![Ảnh minh họa](http://i.imgur.com/O5hsWmV.png)
 - flavor: ID của flavor sử dụng để tạo image, ở đây sử dụng flavor `m1.small`, liệt kê danh sách `nova flavor-list` 
 ![Ảnh minh họa](http://i.imgur.com/Kmq02eT.png)
