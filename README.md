@@ -70,7 +70,7 @@ Trong đó `builders` là thành phần của packer có nhiệm vụ đọc cá
 - image_name: tên của image mà bạn sắp tạo ra
 - source_image: ID của image cơ sở (trong trường hợp này là image Ubuntu14cloud), có thể lấy ID này bằng lệnh nova image-list. 
 ![Ảnh minh họa](http://i.imgur.com/O5hsWmV.png)
-- flavor: ID của flavor sử dụng để tạo image, ở đây sử dụng flavor `m1.small`, để liệt kê danh sách sử dụng `nova flavor-list`. 
+- flavor: ID của flavor sử dụng để tạo image, ở đây sử dụng flavor `m1.small`, liệt kê danh sách `nova flavor-list` 
 ![Ảnh minh họa](http://i.imgur.com/Kmq02eT.png)
 - networks: ID của dải mạng private sử dụng cho máy ảo (thường là `br-int`), để liệt kê sử dụng lệnh `neutron net-list`. Trong trường hợp máy ảo muốn sử dụng nhiều dải mạng thì khai báo một list ở tham số này. 
 ![Ảnh minh họa](http://i.imgur.com/5gBk2IY.png)
